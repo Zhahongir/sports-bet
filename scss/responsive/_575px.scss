@@ -1,0 +1,189 @@
+@media screen and (max-width: 575px) {
+    .container {
+        width: 320px;
+    }
+
+    .promo__header__list {
+        display: none;
+    }
+
+    .promo__header__hamburger {
+        display: block;
+        margin-top: -13px;
+    }
+
+    .promo__header__logo__icon {
+        width: 120px;
+        height: 41px;
+    }
+
+    .promo__wrap {
+        padding-top: 90px;
+    }
+
+    .promo__wrap__content__title {
+        text-align: left;
+        margin-bottom: 30px;
+    }
+
+    .promo__wrap__content__btn__inner__text {
+        font-size: 16px;
+    }
+
+    .promo__wrap__content__btn__inner {
+        width: 320px;
+    }
+
+    .promo__wrap__content__btn__bg {
+        width: 320px;
+        height: 56px;
+    }
+
+    .promo__wrap__content__btn {
+        width: 320px;
+    }
+
+    .promo__wrap__photo {
+        width: 340px;
+        height: 263px;
+        margin-top: 30px;
+        margin-left: -30px;
+    }
+
+    .bookmakers {
+        padding-top: 70px;
+    }
+
+    .bookmakers__wrap {
+        margin-top: 35px;
+    }
+
+    .bookmakers__title {
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .bookmakers__wrap__item {
+        width: 320px;
+        border: 1px solid #F8E800;
+    }
+
+    .bookmakers__wrap__item .betboom {
+        width: 140px;
+        height: 25px;
+    }
+
+    .bookmakers__wrap__item .paribet {
+        width: 115px;
+        height: 26px;
+    }
+
+    .bookmakers__wrap__item .winline {
+        width: 130px;
+        height: 32px;
+    }
+
+    .bookmakers__wrap__item__stars {
+        width: 145px;
+        height: 25px;
+    }
+
+    .bookmakers__wrap__item__bonus__title {
+        font-size: 22px;
+    }
+
+    .bookmakers__wrap__item__bonus__price {
+        font-size: 20px;
+    }
+
+    .bookmakers__wrap__item__btn {
+        width: 230px;
+    }
+
+    .bookmakers__wrap__item__btn__inner {
+        width: 230px;
+    }
+
+    .bookmakers__wrap__item__btn__bg {
+        width: 230px;
+        height: 55px;
+    }
+
+    .bookmakers__wrap__item__btn__inner__text {
+        font-size: 20px;
+    }
+
+    .instruction {
+        padding-top: 85px;
+    }
+
+    .instruction__title {
+        font-size: 19px;
+    }
+
+    .instruction__text {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+
+    .instruction__wrap__item {
+        width: 320px;
+        padding: 0 10px 35px 10px;
+        border: 1px solid #BDBDBD;
+    }
+
+    .instruction__wrap__item .registration {
+        width: 90px;
+        height: 90px;
+        margin-top: 30px;
+    }
+
+    .instruction__wrap__item .bonus {
+        width: 100px;
+        height: 100px;
+        margin-top: 30px;
+    }
+
+    .instruction__wrap__item .win {
+        width: 90px;
+        height: 100px;
+        margin-top: 30px;
+    }
+
+    .instruction__wrap__item__title {
+        font-size: 16px;
+        margin-top: 30px;
+    }
+
+    .instruction__wrap__item__text {
+        font-size: 15px;
+    }
+
+    .instruction__btn {
+        margin-top: 30px;
+        width: 230px;
+    }
+
+    .instruction__btn__inner__text {
+        font-size: 20px;
+    }
+
+    .instruction__btn__inner {
+        width: 230px;
+    }
+
+    .instruction__btn__bg {
+        width: 230px;
+        height: 54px;
+    }
+
+    .footer {
+        margin-top: 80px;
+    }
+
+    .footer__wrap__text {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+
+}

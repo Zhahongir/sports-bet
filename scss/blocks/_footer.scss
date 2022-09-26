@@ -1,0 +1,18 @@
+.footer {
+    position: relative;
+    margin-top: 90px;
+    background-color: #000;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    &__wrap {
+        position: relative;
+        &__text {
+            color: #BDBDBD;
+            font-size: 14px;
+            font-weight: 400;
+            text-align: justify;
+            margin-bottom: 15px;
+        }
+
+    }
+}

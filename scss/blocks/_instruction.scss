@@ -1,0 +1,124 @@
+.instruction {
+    position: relative;
+    padding-top: 120px;
+    &__title {
+        font-size: 28px;
+        font-family: 'DrukWideCyr';
+        font-weight: 500;   
+        color: #fff;
+        opacity: 0;
+        text-transform: uppercase;
+        span {
+            @include yellow;
+            font-weight: 500;
+            font-family: 'DrukWideCyr';
+        }
+    }
+    &__text {
+        margin-top: 20px;
+        font-size: 18px;
+        font-weight: 500;
+        width: 921px;
+        opacity: 0;
+        @include gray;
+        a {
+            color: #FF0025;
+            font-weight: 500;
+            transition: 0.3s ease;
+            &:hover {
+                @include yellow;
+            }
+        }
+    }
+    &__wrap {
+        margin-top: 40px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &__item {
+            background-color: #171717;
+            width: 390px;
+            padding: 0 20px 42px 20px;
+            border-radius: 20px;
+            border: 2px solid #BDBDBD;
+            text-align: center;
+            opacity: 0;
+            .registration {
+                width: 100px;
+                height: 100px;
+                margin-top: 43px;
+            }
+            .bonus {
+                width: 120px;
+                height: 120px;
+                margin-top: 23px;
+            }
+            .win {
+                width: 105px;
+                height: 117px;
+                margin-top: 25px;
+            }
+            &__title {
+                font-size: 18px;
+                margin-top: 25px;
+                font-weight: 500;
+                font-family: 'DrukWideCyr';
+                color: #fff;
+                text-transform: uppercase;
+            }
+            &__text {
+                width: 100%;
+                margin-top: 15px;
+                font-size: 18px;
+                font-weight: 500;
+                @include gray;
+            }
+        }
+    }
+    &__btn {
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 40px;
+        position: relative;
+        width: 280px;
+        display: block;
+        transition: 0.3s ease;
+        opacity: 0;
+        &:hover .instruction__btn__bg {
+            top: 0;
+        }
+        &:hover .instruction__btn__inner {
+            transform: translateY(-2px);
+            box-shadow: 0;
+        } 
+        &__inner {
+            width: 280px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            @include yellow-bg;
+            border-radius: 100px;
+            text-align: center;
+            box-shadow: 0px 0px 20px rgba(248, 232, 0, 0.25);
+            position: relative;
+            z-index: 5;
+            transition: 0.3s ease;
+            &__text {
+                font-size: 22px;
+                font-weight: 600;
+                color: #1A1A26;
+            }
+        }
+        &__bg {
+            position: absolute;
+            left: 0;
+            top: 5px;
+            width: 280px;
+            height: 57px;
+            background-color: #9C9310;
+            border-radius: 100px;
+            z-index: 4;
+            transition: 0.3s ease;
+        }
+    }
+}

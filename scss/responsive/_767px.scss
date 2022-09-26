@@ -1,0 +1,59 @@
+@media screen and (max-width: 767px) {
+    .container {
+        width: 540px;
+    }
+
+    .promo__wrap__content__title {
+        font-size: 24px;
+    }
+
+    .promo__wrap__photo {
+        width: 100%;
+        height: 100%;
+        margin-top: 15px;
+        margin-bottom: -2px;
+    }
+
+    .promo__header__list {
+        margin-top: -13px;
+    }
+
+    .bookmakers__title {
+        text-align: center;
+    }
+
+    .bookmakers__wrap {
+        gap: 30px;
+    }
+
+    .bookmakers__wrap__item:nth-child(1) {
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+    .bookmakers__wrap__item:nth-child(2) {
+        margin-bottom: 0;
+    }
+
+    .instruction__text {
+        font-size: 15px;
+    }
+
+    .instruction__wrap {
+        gap: 30px;
+    }
+
+    .instruction__wrap__item:nth-child(1) {
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+    .instruction__wrap__item:nth-child(2) {
+        margin-bottom: 0;
+    }
+
+    .instruction__wrap__item {
+        width: 390px;
+    }
+
+}

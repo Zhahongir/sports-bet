@@ -1,0 +1,125 @@
+.promo__header {
+    animation: promo-header 0.7s linear forwards; 
+}
+
+@keyframes promo-header {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+.promo__wrap__content__title {
+    animation: promo-title 0.7s linear forwards; 
+}
+
+@keyframes promo-title {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+.promo__wrap__content__btn {
+    animation: promo-btn 1s linear forwards; 
+}
+
+@keyframes promo-btn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px)
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+// BOOKMAKERS
+.bookmakers__title-anim {
+    animation: book-title 0.8s linear forwards; 
+}
+
+@keyframes book-title {
+    0% {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}   
+
+
+.book-item-one-anim {
+    animation: book-item-anim 0.8s linear forwards; 
+}
+
+@keyframes book-item-anim {
+    0% {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}  
+
+
+.book-item-two-anim {
+    animation: book-item-two-anim 1s linear forwards; 
+}
+
+@keyframes book-item-two-anim {
+    0% {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}  
+
+
+.book-item-three-anim {
+    animation: book-item-three-anim 1.2s linear forwards; 
+}
+
+@keyframes book-item-three-anim {
+    0% {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}  
+
+
+.opacity-item {
+    animation: opacity-item 1s linear forwards; 
+}
+
+@keyframes opacity-item {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+} 
+
+
