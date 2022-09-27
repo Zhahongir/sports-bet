@@ -210,3 +210,63 @@
     observer.observe(titleMainOne);
   })
 ();
+
+// Animation Intruction Btn
+(function () {
+  var titleMainOne = document.querySelector('.betboom-btn');
+
+  var observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (typeof getCurrentAnimationPreference === 'function' && !getCurrentAnimationPreference()) {
+        return;
+      }
+
+      if (entry.isIntersecting) {
+        entry.target.classList.add('opacity-item');
+      }
+    });
+  });
+
+  observer.observe(titleMainOne);
+})
+();
+
+// Animation Intruction Btn
+(function () {
+  var titleMainOne = document.querySelector('.pari-btn');
+
+  var observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (typeof getCurrentAnimationPreference === 'function' && !getCurrentAnimationPreference()) {
+        return;
+      }
+
+      if (entry.isIntersecting) {
+        entry.target.classList.add('opacity-item');
+      }
+    });
+  });
+
+  observer.observe(titleMainOne);
+})
+();
+
+// Animation Intruction Btn
+(function () {
+  var titleMainOne = document.querySelector('.winline-btn');
+
+  var observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (typeof getCurrentAnimationPreference === 'function' && !getCurrentAnimationPreference()) {
+        return;
+      }
+
+      if (entry.isIntersecting) {
+        entry.target.classList.add('opacity-item');
+      }
+    });
+  });
+
+  observer.observe(titleMainOne);
+})
+();
